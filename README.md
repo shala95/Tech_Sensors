@@ -1,7 +1,7 @@
 # Tech_Sensors
-Project Title: Development of a Plant Assist System
+# Development of a Plant Assist System
 
-Table of Contents
+## Table of Contents
 
 Introduction
 Team Members
@@ -14,11 +14,12 @@ Automatized Lighting
 Future Perspectives
 Contributions
 Acknowledgments
-Introduction
+
+## Introduction
 
 This project involves the development of a plant assist system that uses sensors to monitor and control the environmental conditions of an indoor plant. The system aims to maintain optimal light and moisture levels to ensure healthy plant growth.
 
-Team Members
+## Team Members
 
 Marta Albini
 Fabiola Dassi
@@ -32,14 +33,15 @@ final ppt 0606 (1).pptx: Presentation detailing the project summary, hardware, s
 Setup and Installation
 
 Clone the repository:
-sh
-Copy code
+```
 git clone <repository_url>
 cd <repository_directory>
+```
 Follow the hardware and software setup instructions detailed in the project documentation.
-Hardware Details
 
-The hardware components used in this project include:
+## Hardware Details
+
+### The hardware components used in this project include:
 
 LDR sensor to measure light levels
 Moisture sensor to measure soil humidity
@@ -48,9 +50,10 @@ Conditioning circuit for the LDR sensor
 Small indoor plant (Red Lettuce)
 MCP6002 operational amplifier
 Capacitive moisture sensor
-Software Details
 
-The software components include firmware developed for Arduino to handle:
+## Software Details
+
+### The software components include firmware developed for Arduino to handle:
 
 Sampling of sensor signals
 Data comparison with predefined thresholds
@@ -67,11 +70,12 @@ A 3-D structure was designed to house the sensors, LED strips, and the plant, en
 
 Future Perspectives
 
-Future enhancements to the system include:
+## Future enhancements to the system include:
 
 Connecting lights to the electrical main for longer operation times
 Adding a water pump for automated irrigation based on soil moisture levels
-Contributions
+
+## Contributions
 
 Marta Albini: Hardware design and implementation
 Fabiola Dassi: Sensor integration and conditioning circuits
@@ -80,6 +84,6 @@ Giulia Giorgiani: Data analysis and system testing
 Valeria Marini: User interface design and real-time data display
 Chiara Gentile: Project coordination and report preparation
 
-Acknowledgments
+## Acknowledgments
 
 We acknowledge the guidance and support provided by our course instructors for the Technologies for Sensors and Clinical Instrumentation course at Politecnico di Milano.
